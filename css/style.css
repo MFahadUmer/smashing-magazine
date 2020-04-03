@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: grid;
+  grid-template-rows: 209px 947px 533px 2656px 1107px 1900px 422px 2663px 1900px 709px;
+  border: 1px solid black;
+}
+
+main > section {
+  border: 1px solid blue;
+}
+
+.section-1 {
+  background-color: #D33C37;
+}
+
+.logo{
+  width: 235px;
+  height: 95px;
+}
+
+.section-2{
+  background-color: #D33C37;
+}
+
+.section-3{
+background: rgb(36,40,58);
+background: linear-gradient(180deg, rgba(36,40,58,1) 0%, rgba(19,52,85,1) 100%);
+}
+
+.section-4{
+  background-color: #F6F3F2;
+
+}
+
+.section-5 {
+  background-color: #76D0A4;
+}
+
+.section-6{
+ 
+}
+.section-7{
+  background-color: #D33C37;
+}
+.section-8{
+  background-color: #F6F3F2;
+}
+
+
+footer{
+  background-color: #D33C37;
+}
