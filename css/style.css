@@ -74,6 +74,59 @@ main > section {
 
 .section-2 {
   background-color: #d33c37;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  color: white;
+}
+
+.content-1{
+  padding-right: 60px;
+
+}
+
+.writer-image{
+  display: flex;
+  align-items: center;
+}
+.content-image{
+  width: 76px;
+  border-radius: 8px;
+  border: 5px white solid;
+}
+
+.writer{
+  color: white;
+  font-size: 30px;
+  padding-left: 25px;
+}
+
+.writer-article{
+  font-size: 40px;
+}
+
+.fa-comment-alt{
+  font-size: 20px;
+}
+
+.comments{
+  font-size: 20px;
+}
+
+.writer-ethics{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 462px;
+}
+
+.fa-long-arrow-alt-right{
+  font-size: 30px;
+  margin-top: 200px;
 }
 
 .section-3 {
