@@ -1,7 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+.section-4-button {
+  font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -180,11 +193,19 @@ main {
 .post {
   padding: 25px;
   border-radius: 4px;
+  position: relative;
 }
 
 .posts-description {
   font-size: 24px;
   color: rgb(46, 46, 46);
+}
+
+.post-arrow {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 30px;
 }
 
 .posts-writer {
@@ -198,6 +219,15 @@ main {
 .post .fa-long-arrow-alt-right {
   color: black;
   text-align: left;
+}
+
+.post:hover .post-arrow {
+  color: white;
+  background-color: rgb(76, 144, 233);
+}
+
+.post:hover .post-arrow i {
+  color: white;
 }
 
 .posts-4 {
@@ -298,9 +328,10 @@ main {
 }
 
 .date {
+  text-transform: uppercase;
   color: white;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
   margin: 40px auto;
 }
 
@@ -413,94 +444,99 @@ main {
   background-color: rgb(73, 68, 68);
   display: flex;
   justify-content: space-between;
-  padding:0 75px;
+  padding: 0 75px;
   color: white;
 }
 
-.design-image-img{
+.design-image-img {
   width: 255px;
   height: 371px;
   margin-top: -50px;
 }
 
-.design-features{
+.design-features {
   padding-top: 50px;
-  font-size: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.design-header{
+.design-header {
   display: block;
   text-decoration: underline;
   color: white;
   font-size: 40px;
   font-weight: bold;
   padding: 15px 0 30px 0;
-
 }
 
-.design-desc{
+.design-desc {
   width: 65%;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 32px;
 }
 
 .section-7 {
-  background-color: #F6F3F2;
+  background-color: #f6f3f2;
   display: grid;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(3, 650px);
   grid-template-columns: repeat(4, 1fr);
   margin: 20px;
+  gap: 20px;
 }
 
-.section-7 > div:nth-child(5){
+.section-7 > div:nth-child(5) {
   grid-row: 2/3;
   grid-column: 1/-1;
 }
 
-.section-7 > div:last-child{
+.section-7 > div:last-child {
   grid-row: 3/4;
   grid-column: 1/-1;
 }
 
-.section-7 > div{
+.section-7 > div {
   border: solid 1px black;
 }
 
-.curated-posts-1{
-  padding:20px 50px
+.curated-posts-1 {
+  padding: 20px 50px;
 }
 
-.curated-heading{
+.curated-heading {
   font-size: 16px;
+  font-weight: 400;
   color: black;
-  
 }
 
-.curated-detail{
+.curated-detail {
   padding-top: 10px;
   font-size: 26px;
   font-weight: bold;
   color: black;
-
 }
-.curated-ul{
+.curated-ul {
   list-style: disc;
   color: red;
   padding-top: 10px;
   padding-left: 30px;
 }
 
-.curated-ul > li{
+.curated-ul > li {
   padding-top: 20px;
 }
 
-
-.curated-ul > li > a{
-  font-size: 20px;
-  color: blue;
+.curated-ul > li > a {
+  font-size: 22px;
+  color: rgb(0, 132, 255);
   text-decoration: underline;
 }
 
+.curated-posts-5 {
+  background-color: #d33c37;
+  margin: 20px 50px;
+  border-radius: 8px;
+}
 
 footer {
   background-color: #d33c37;
