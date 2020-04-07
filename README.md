@@ -53,4 +53,4 @@ Give a ⭐️ if you like this project!
 
 ## Live preview
 
-You can check how the website looks in: https://rawcdn.githack.com/MFahadUmer/smashing-magazine/e56fe1d8194771bdfc8eef1c2712fd871485ebb9/index.html
+You can check how the website looks in: https://rawcdn.githack.com/MFahadUmer/smashing-magazine/86fcb021316098682d351e80acd8d572a3c255ec/index.html
