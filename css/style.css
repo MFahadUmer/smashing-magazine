@@ -8,7 +8,6 @@
 
 a {
   color: #424242;
-  text-decoration: none;
 }
 
 h1,
@@ -21,6 +20,10 @@ header,
 .section-4-button,
 .newsletter-button {
   font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 main {
@@ -40,6 +43,7 @@ main {
   align-items: center;
   padding: 0 40px;
 }
+
 .nav-item {
   display: flex;
   flex-direction: column;
@@ -140,6 +144,7 @@ main {
   margin-bottom: 16px;
   align-items: center;
 }
+
 .content-image {
   width: 76px;
   border-radius: 8px;
@@ -186,6 +191,7 @@ main {
   margin: 20px 20px;
   gap: 80px 15px;
 }
+
 .section-3 > div {
   padding: 40px;
   text-decoration: none;
@@ -307,7 +313,8 @@ main {
   padding: 15px 22px;
   background-color: white;
   border-radius: 5px;
-  font-size: 20px;
+  text-decoration: none;
+  ont-size: 20px;
   font-weight: bold;
 }
 
@@ -352,6 +359,7 @@ main {
 }
 
 .section-4-button {
+  text-decoration: none;
   padding: 15px 25px;
   border-radius: 6px;
   font-size: 20px;
@@ -364,6 +372,7 @@ main {
 
 .section-4-img {
   display: block;
+  text-decoration: none;
   margin: 0 auto;
 }
 
