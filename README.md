@@ -2,6 +2,8 @@
 
 > this is a clone of the Smashing Magazine landing page in grayscale
 
+![screenshot](img/screenshot.png)
+
 This website contains:
 
 - A Navbar made with flex.
