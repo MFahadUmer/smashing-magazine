@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #424242;
+}
+
 h1,
 h2,
 h3,
@@ -29,7 +33,7 @@ main {
 }
 
 .section-1 {
-  background-color: #d33a2c;
+  background-color: #777777;
 }
 
 .navbar {
@@ -83,7 +87,6 @@ main {
 }
 
 .section-2 {
-  background-color: #d33c37;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -100,7 +103,7 @@ main {
   margin: auto;
   font-size: 50px;
   text-align: center;
-  width: 500px;
+  width: 610px;
   color: black;
   background-color: white;
   top: 30px;
@@ -108,7 +111,7 @@ main {
 
 .articles {
   width: 200px;
-  top: 80px;
+  top: 90px;
 }
 
 .content-1 {
@@ -119,20 +122,20 @@ main {
 
 .content-1:nth-child(1) {
   padding-top: 200px;
-  background-color: #bc3428;
+  background-color: #7e7e7e;
 }
 
 .content-1:nth-child(2) {
   padding-top: 200px;
-  background-color: #c7372a;
+  background-color: #a3a3a3;
 }
 
 .content-1:nth-child(3) {
-  background-color: #b13024;
+  background-color: #868686;
 }
 
 .content-1:nth-child(4) {
-  background-color: #bc3428;
+  background-color: #979797;
 }
 
 .writer-image {
@@ -224,7 +227,7 @@ main {
 
 .post:hover .post-arrow {
   color: white;
-  background-color: rgb(76, 144, 233);
+  background-color: rgb(116, 116, 116);
 }
 
 .post:hover .post-arrow i {
@@ -234,7 +237,6 @@ main {
 .posts-4 {
   grid-column: 1/3;
   grid-row: 2/3;
-  background-color: grey;
 }
 
 .posts-5 {
@@ -260,7 +262,6 @@ main {
 .posts-9 {
   grid-column: 3/5;
   grid-row: 3/4;
-  background-color: grey;
 }
 
 .posts-10 {
@@ -271,14 +272,15 @@ main {
 }
 
 .red-line {
-  color: red;
-  border: 2px solid red;
+  color: rgb(70, 70, 70);
+  border: 2px solid rgb(85, 85, 85);
   width: 250px;
   margin: 10px auto;
 }
 
 .main-posts {
   text-align: center;
+  background-color: #575757;
 }
 
 .main-posts > h2 {
@@ -324,7 +326,7 @@ main {
 }
 
 .section-4 {
-  background-color: #76cda2;
+  background-color: #a1a1a1;
   text-align: center;
 }
 
@@ -357,7 +359,7 @@ main {
   border-radius: 6px;
   font-size: 20px;
   font-weight: bold;
-  color: #267dcc;
+  color: #383838;
   background-color: white;
   display: inline-block;
   margin: 50px auto;
@@ -401,6 +403,8 @@ main {
 .community-img {
   display: block;
   width: 80px;
+  border: 6px solid #585858;
+  border-radius: 5px;
   margin-right: 40px;
   height: 80px;
 }
@@ -496,7 +500,6 @@ main {
   grid-column: 1/-1;
 }
 
-
 .curated-posts-1 {
   padding: 20px 50px 150px 50px;
 }
@@ -515,7 +518,7 @@ main {
 }
 .curated-ul {
   list-style: disc;
-  color: red;
+  color: rgb(37, 37, 37);
   padding-top: 10px;
   padding-left: 30px;
 }
@@ -526,24 +529,24 @@ main {
 
 .curated-ul > li > a {
   font-size: 22px;
-  color: rgb(0, 132, 255);
+  color: rgb(80, 80, 80);
   text-decoration: underline;
 }
 
 .curated-posts-5 {
-  background-color: #d33c37;
+  background-color: #5d5d5d;
   margin: 20px 50px;
   border-radius: 8px;
 }
 
-.curated-img{
+.curated-img {
   margin: 0 auto;
   display: block;
   width: 511px;
   height: 549px;
 }
 
-.newsletter-header{
+.newsletter-header {
   padding-top: 65px;
   font-size: 48px;
   font-weight: bold;
@@ -551,7 +554,7 @@ main {
   text-align: center;
 }
 
-.newsletter-details{
+.newsletter-details {
   margin: 20px auto;
   text-align: center;
   width: 620px;
@@ -560,13 +563,13 @@ main {
   line-height: 35px;
 }
 
-.newsletter-form{
+.newsletter-form {
   display: flex;
   justify-content: center;
   padding: 30px 0 20px 0;
 }
 
-.input-email{
+.input-email {
   border: 0;
   border-right: 1px solid black;
   border-radius: 8px 0 0 8px;
@@ -576,31 +579,104 @@ main {
   width: 250px;
 }
 
-.newsletter-button{
-  
+.newsletter-button {
   padding: 15px 20px 15px 15px;
   border-radius: 0 8px 8px 0;
   font-size: 24px;
   font-weight: bold;
-  color: #267dcc ;
+  color: #4e4e4e;
   display: inline-block;
   margin: 0;
   font-weight: bold;
   background-color: white;
 }
 
-.newsletter-paragraph{
+.newsletter-paragraph {
   text-align: center;
   color: white;
   font-size: 14px;
   padding-bottom: 30px;
 }
 
-.curated-posts-6{
+.curated-posts-6 {
   text-align: center;
-  padding:215px 0 100px 0;
+  padding: 215px 0 100px 0;
 }
 
 footer {
-  background-color: #d33c37;
+  background-color: #505050;
+  padding: 0 112px 50px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-header {
+  font-size: 16px;
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  margin: 65px 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.footer-ul {
+  list-style: disc;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.footer-ul > li {
+  color: rgba(0, 0, 0, 0.637);
+  margin-left: 40px;
+  margin-bottom: 26px;
+}
+
+.footer-ul > li > a {
+  color: white;
+  font-size: 25px;
+}
+
+.footer-commitment {
+  margin-top: 70px;
+  width: 400px;
+  line-height: 1.7;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-nav {
+  width: 600px;
+  margin: 40px auto;
+  color: white;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.footer-bird {
+  position: absolute;
+  bottom: 60px;
+  left: 200px;
+  width: 200px;
+}
+
+.footer-arrow-up {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
 }
